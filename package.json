@@ -1,0 +1,45 @@
+{
+  "name": "zw-multiple-page-gulp",
+  "version": "1.0.0",
+  "description": "gulp build",
+  "keywords": [
+    "zw-multiple-page-gulp"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/zw-multiple-page-gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfw279046483/zw-multiple-page-gulp.git"
+  },
+  "author": "zfw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zfw279046483/zw-multiple-page-gulp/issues"
+  },
+  "homepage": "https://github.com/zfw279046483/zw-multiple-page-gulp#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.49.9"
+  }
+}
